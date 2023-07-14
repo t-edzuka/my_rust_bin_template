@@ -21,3 +21,6 @@ fix:
 fix-force:
     cargo fix --allow-dirty && cargo clippy --fix --allow-dirty
 
+run:
+    cargo run
+
